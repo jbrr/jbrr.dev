@@ -16,6 +16,6 @@ collections:
     - {label: "Publish Date", name: "date", widget: "datetime"}
     - {label: "Featured Image", name: "cover.image", widget: "image", required: false}
     - {label: "Image Caption", name: "cover.caption", widget: "string", required: false}
-    - {label: "Image Alt Test", name: "cover.alt", widget: "string"}
+    - {label: "Image Alt Test", name: "cover.alt", widget: "string", required: false}
     - {label: "Tags", name: "tags", widget: "list", required: false, field: {label: "Tag", name: "tag", widget: "string", required: false}}
     - {label: "Body", name: "body", widget: "markdown"}
