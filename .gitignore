@@ -5,3 +5,5 @@ _site
 vendor
 .hugo_build.lock
 public
+# Local Netlify folder
+.netlify
