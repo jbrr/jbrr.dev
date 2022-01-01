@@ -10,7 +10,9 @@ cover:
   hidden: true
 ---
 
-**CW**: mental illness, psychosis, despression
+# The story of my year
+
+**CW**: mental illness, psychosis, depression
 
 There are a lot of technical-ish topics I've been meaning to write about. For example, I've been thinking recently about scaling engineering teams and why it often goes poorly. Or, I want to write about an excellent book on relational database performance that I picked up. But it's December 31; it's the last day of this horrible, no good, very rotten year. So instead, I'm going to reflect on that, and what I learned.
 
@@ -46,4 +48,4 @@ A year ago, I would've just thought to myself "oh, that guys probably just havin
 
 If anybody reads this, please go over some of [the general early symptoms of mental illness](https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968). I promise you, it's so much better to do something and be wrong than the other way around. Everyone's struggling right now, we all have to do what we can to take care of each other.
 
-Here's to hoping for brighter days ahead. Happy new year, folks.
+Good riddance, 2021. Here's to hoping for brighter days ahead. Happy new year, folks.
