@@ -46,6 +46,7 @@ params:
     description: "Hotdog guru"
     author: Jeff Ruane
     images: [/jbrr.jpg]
+    ShowFullTextinRSS: true
     schema:
         publisherType: Person
         sameAs: ["https://keybase.io/jbrr", "https://twitter.com/jefbrr"]

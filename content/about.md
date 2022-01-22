@@ -4,14 +4,15 @@ layout: "single"
 url: "/about"
 summary: "about"
 searchHidden: true
+aboutpage: true
+ShowBreadCrumbs: false
 ---
 
-Hi, I'm Jeff, and you need more Jeff's in your life. Currently living in Denver, Colo. with my lovely wife and working as a senior software engineer at [Tackle](https://tackle.io). I like thinking about data, effective teams, mental health, and empathy. When I was younger, I journaled every day, and I'd like to get back into the habit. So here I am, writing a blog that nobody will ever read!
+Hi, I'm Jeff, and you need more Jeff's in your life. I live in Denver, Colo. with my lovely wife and working as a senior software engineer at [Tackle](https://tackle.io). I like thinking about data, effective teams, mental health, and empathy. I'm conflict adverse and will often temper my opinion to avoid a disagreement, although I'm working on changing my internal definition of "conflict" to exclude "good faith disagreements". I think things through pretty slowly and try not to form opinions quickly or without intention.
 
-## Branding
-|  |  |  | | | |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| [twitter](https://twitter.com/jefbrr) | [linkedin](https://linkedin.com/in/jeffruane) |  [github](https://github.com/jbrr) | [email](mailto:yo@jbrr.dev) | [resume [pdf]](/jeffruane.pdf) | [rss](/index.xml) |
+## I'm on the internet
 
-## Branding guidelines
-I must always be addressed as "Benevolent King of Hotdogs"
+Sometimes I say things or make things:
+|  |  |  | | |
+|:--:|:--:|:--:|:--:|:--:|
+| [twitter](https://twitter.com/jefbrr) | [linkedin](https://linkedin.com/in/jeffruane) |  [github](https://github.com/jbrr) | [email](mailto:yo@jbrr.dev) | [rss](/index.xml) |
