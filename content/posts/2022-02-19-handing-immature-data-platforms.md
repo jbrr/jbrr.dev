@@ -10,8 +10,6 @@ cover:
   hidden: true
 ---
 
-# Handling immature data platforms
-
 A robust data platform isn't typically the top priority for a scrappy startup. And for good reason! Folks are focused on making sure the product works, and duct taping features onto it to please early customers. As long as the team has whatever data they need, who cares how it got into the system.
 
 Inevitably, if the company is successful, the weight of messy data gets unbearable. Endless support and operational tickets start pouring in causing burnout and eating everyone's time. It's a brutal cycle of not having enough time to improve the data platform because so much bandwidth is going towards fixing bad data.
