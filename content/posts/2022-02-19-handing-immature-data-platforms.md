@@ -28,7 +28,7 @@ These schemas should be checked in to a version control system, and changes shou
 
 ## Understand the structure of what's being ingested
 
-Once we have the content down, we need to start looking at the structure. Barr Moses [laid out the idea](#)(https://www.montecarlodata.com/what-is-data-observability/) of "Data Observability" perfectly. We need to know the freshness, distribution, volume, schema, and lineage of our data ingests.
+Once we have the content down, we need to start looking at the structure. Barr Moses [laid out the idea](https://www.montecarlodata.com/what-is-data-observability/) of "Data Observability" perfectly. We need to know the freshness, distribution, volume, schema, and lineage of our data ingests.
 
 In the context of data ingest, freshness is only significant compared to what we expect the freshness to be. It's not uncommon to have some data feed that's delivered weekly or monthly. But knowing the expected cadence is essential so alarms can be raised internally instead of getting frantic support tickets.
 
