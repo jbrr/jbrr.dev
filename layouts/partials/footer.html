@@ -132,8 +132,8 @@
   function get_random (list) {
     return list[Math.floor((Math.random()*list.length))];
   }
-  const titles = {{ .Site.Params.alt_titles }}
-  const title = get_random(titles)
+  const titles = {{ .Site.Params.alt_titles }};
+  const title = get_random(titles);
 
-  document.querySelector("nav.nav div.logo a").innerHTML = title
+  document.querySelector("nav.nav div.logo a").innerHTML = title;
 </script>

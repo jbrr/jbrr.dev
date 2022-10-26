@@ -20,12 +20,16 @@ menu:
     main:
         - name: About
           url: about
-          weight: 5
+          weight: 1
+        - name: Micro.blog
+          url: https://micro.jbrr.dev
+          weight: 2
         - name: Archive
           url: archives
-          weight: 5
+          weight: 3
         - name: Search
           url: search/
+          weight: 3
         #   weight: 10
         # - name: Tags
         #   url: tags/
@@ -67,6 +71,8 @@ params:
         - James S. Brady Jeff Briefing Room
         - Nothing Jeff Nothing More
         - Jeff Cab for Cutie
+        - Blue Screen of Jeff
+        - Every Jeff You Take
 
     defaultTheme: auto
     # disableThemeToggle: true

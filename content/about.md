@@ -15,4 +15,4 @@ Hi, I'm Jeff, and you need more Jeff's in your life. I live in Denver, Colo. wit
 Sometimes I say things or make things:
 |  |  |  | | |
 |:--:|:--:|:--:|:--:|:--:|
-| [twitter](https://twitter.com/jefbrr) | [linkedin](https://linkedin.com/in/jeffruane) |  [github](https://github.com/jbrr) | [email](mailto:yo@jbrr.dev) | [rss](/index.xml) |
+| [micro.blog](https://micro.jbrr.dev) | [twitter](https://twitter.com/jefbrr) | [linkedin](https://linkedin.com/in/jeffruane) |  [github](https://github.com/jbrr) | [email](mailto:yo@jbrr.dev) | [rss](/index.xml) |
