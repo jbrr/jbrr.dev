@@ -50,6 +50,7 @@ params:
     description: "Hotdog guru"
     author: Jeff Ruane
     images: [/jbrr.jpg]
+    hCardImage: /jbrr-512x518px.jpg
     ShowFullTextinRSS: true
     schema:
         publisherType: Person
