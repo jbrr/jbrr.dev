@@ -2,6 +2,8 @@
 title: An Ode to Uzimiah
 date: 2022-11-24
 draft: false
+cover:
+  image: goodnight.jpeg
 ---
 
 Uzi was my best friend, and I miss him very much. I thought it might help to remember some of his favorite things.
