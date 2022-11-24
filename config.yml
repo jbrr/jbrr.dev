@@ -58,3 +58,9 @@ params:
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/safari-pinned-tab.svg"
+
+    schema:
+        sameAs:
+            - https://twitter.com/jefbrr
+            - https://flickr.com/photos/eioua
+            - https://github.com/jbrr
