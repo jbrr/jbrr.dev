@@ -2,7 +2,6 @@
 title: Handling immature data platforms
 date: 2022-02-19
 draft: false
-tags: [data]
 description: How to start building a robust data platform at a early stage startup
 cover:
   image: "/images/bison.jpeg"

@@ -2,7 +2,6 @@
 title: Thoughts on "Operations" by Andrew Bosworth
 date: 2021-12-24
 draft: false
-tags: [career, leadership]
 description: A reaction to a interesting article about how teams work well together
 ---
 

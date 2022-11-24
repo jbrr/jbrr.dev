@@ -1,13 +1,3 @@
----
-title: "About"
-layout: "single"
-url: "/about"
-summary: "about"
-searchHidden: true
-aboutpage: true
-ShowBreadCrumbs: false
----
-
 Hi, I'm Jeff, and you need more Jeff's in your life. I live in Denver, Colo. with my lovely wife and working as a senior software engineer at [Tackle](https://tackle.io). I like thinking about data, effective teams, mental health, and empathy. I'm conflict adverse and will often temper my opinion to avoid a disagreement, although I'm working on changing my internal definition of "conflict" to exclude "good faith disagreements". I think things through pretty slowly and try not to form opinions quickly or without intention.
 
 ## I'm on the internet
@@ -15,4 +5,4 @@ Hi, I'm Jeff, and you need more Jeff's in your life. I live in Denver, Colo. wit
 Sometimes I say things or make things:
 |  |  |  | | |
 |:--:|:--:|:--:|:--:|:--:|
-| [micro.blog](https://micro.jbrr.dev) | [twitter](https://twitter.com/jefbrr) | [linkedin](https://linkedin.com/in/jeffruane) |  [github](https://github.com/jbrr) | [email](mailto:yo@jbrr.dev) | [rss](/index.xml) |
+| [twitter](https://twitter.com/jefbrr) | [flickr](https://flickr.com/photos/eioua) | [linkedin](https://linkedin.com/in/jeffruane) |  [github](https://github.com/jbrr) | [email](mailto:yo@jbrr.dev) |

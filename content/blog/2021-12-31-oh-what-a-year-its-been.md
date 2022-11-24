@@ -2,15 +2,12 @@
 title: The story of my year
 date: 2021-12-31
 draft: false
-tags: [personal, mental illness]
 description: Reflections on an awful year
 cover:
   image: "/images/20211231_laura-ockel.jpg"
   alt: "A long exposure photograph of fireworks, which is meant to be ironically cheerful for the tone of this article. That's ok, it's hidden anyway, this is only here for the Twitter card. Photograph by Laura Ockel on Upsplash."
   hidden: true
 ---
-
-# The story of my year
 
 **CW**: mental illness, psychosis, depression
 

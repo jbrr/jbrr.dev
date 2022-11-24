@@ -2,7 +2,6 @@
 title: New beginnings
 date: 2021-12-23T00:15:00-07:00
 draft: false
-tags: [career, engineering]
 description: A start at documenting getting the hang of a new job
 ---
 
