@@ -3,7 +3,7 @@ title: An Ode to Uzimiah
 date: 2022-11-24
 draft: false
 cover:
-  image: goodnight.jpeg
+  image: /goodnight.jpeg
   relative: true
 ---
 
