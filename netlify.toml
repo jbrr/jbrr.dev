@@ -1,0 +1,5 @@
+# Plausible Analytics proxy https://plausible.io/docs/proxy/guides/netlify
+[[redirects]]
+from = "/js/script.outbound-links.js"
+to = "https://plausible.io/js/script.outbound-links.js"
+status = 200
