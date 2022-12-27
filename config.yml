@@ -1,6 +1,6 @@
 baseURL: https://jbrr.dev/
 languageCode: en-us
-theme: "hugo-bearblog"
+theme: "hugo-grizzlyblog"
 
 title: Jeff Ruane
 author: Jeff Ruane
