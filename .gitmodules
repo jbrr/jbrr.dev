@@ -1,0 +1,3 @@
+[submodule "themes/hugo-grizzlyblog"]
+	path = themes/hugo-grizzlyblog
+	url = https://github.com/jbrr/hugo-grizzlyblog.git
