@@ -19,8 +19,10 @@ disableKinds:
 ignoreErrors:
     - error-disable-taxonomy
 permalinks:
-  blog: "/:slug/"
-  tags: "/blog/:slug"
+  articles: /articles/:slug/
+  notes: /notes/:year/:month/:slugorfilename
+  tags: /tags/:slug
+sectionPagesMenu: main
 
 outputs:
     home:
