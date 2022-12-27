@@ -20,7 +20,7 @@ ignoreErrors:
     - error-disable-taxonomy
 permalinks:
   articles: /articles/:slug/
-  notes: /notes/:year/:month/:slugorfilename
+  notes: /notes/:year/:month/:slugorfilename/
   tags: /tags/:slug
 sectionPagesMenu: main
 
