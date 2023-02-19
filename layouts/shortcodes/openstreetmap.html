@@ -10,8 +10,4 @@
 {{ $coordX := .Get "coordX" }}
 {{ $coordY := .Get "coordY" }}
 
-{{ $mapUrl := "https://api.mapbox.com/styles/v1/mapbox/{{- $mapStyle -}}/static/pin-s+{{- $pinColor -}}({{- $coordX -}},{{- $coordY -}})/{{- $coordX -}},{{- $coordY -}},{{- $zoom -}},{{- $bearing -}}/{{- $mapWidth -}}x{{- mapHeight -}}?access_token={{- $mapboxApiKey -}}" }}
-
-{{ with $mapUrl }}
-   <img src={{.}}>
-{{ end }}
+<img src="https://api.mapbox.com/styles/v1/mapbox/{{- $mapStyle -}}/static/pin-s+{{- $pinColor -}}({{- $coordX -}},{{- $coordY -}})/{{- $coordX -}},{{- $coordY -}},{{- $zoom -}},{{- $bearing -}}/{{- $mapWidth -}}x{{- mapHeight -}}?access_token={{- $mapboxApiKey -}}">
