@@ -5,7 +5,9 @@
 {{ $mapWidth := .Get "mapWidth" | default "300" }}
 {{ $mapHeight := .Get "mapHeight" | default "200" }}
 
+{{ $key := os.Getenv "HUGO_MAPBOX_API_KEY" }}
+
 {{ $coordX := .Get "coordX" }}
 {{ $coordY := .Get "coordY" }}
 
-<img src="https://api.mapbox.com/styles/v1/mapbox/{{- $mapStyle -}}/static/pin-s+{{- $pinColor -}}({{- $coordX -}},{{- $coordY -}})/{{- $coordX -}},{{- $coordY -}},{{- $zoom -}},{{- $bearing -}}/{{- $mapWidth -}}x{{- $mapHeight -}}?access_token={{- os.Getenv HUGO_MAPBOX_API_KEY -}}">
+<img src="https://api.mapbox.com/styles/v1/mapbox/{{- $mapStyle -}}/static/pin-s+{{- $pinColor -}}({{- $coordX -}},{{- $coordY -}})/{{- $coordX -}},{{- $coordY -}},{{- $zoom -}},{{- $bearing -}}/{{- $mapWidth -}}x{{- $mapHeight -}}?access_token={{- $key -}}">
