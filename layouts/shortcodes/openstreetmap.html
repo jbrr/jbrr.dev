@@ -13,5 +13,5 @@
 {{ $mapUrl := "https://api.mapbox.com/styles/v1/mapbox/{{- $mapStyle -}}/static/pin-s+{{- $pinColor -}}({{- $coordX -}},{{- $coordY -}})/{{- $coordX -}},{{- $coordY -}},{{- $zoom -}},{{- $bearing -}}/{{- $mapWidth -}}x{{- mapHeight -}}?access_token={{- $mapboxApiKey -}}" }}
 
 {{ with $mapUrl }}
-    <figure><img src={{.}}></figure>
+   <img src={{.}}>
 {{ end }}
