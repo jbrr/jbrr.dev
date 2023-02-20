@@ -5,7 +5,8 @@
 {{ $mapWidth := .Get "mapWidth" | default "300" }}
 {{ $mapHeight := .Get "mapHeight" | default "200" }}
 
-{{ $key := os.Getenv "HUGO_MAPBOX_API_KEY" }}
+{{/*  This key is embedded in the request URL, no need to keep it a secret  */}}
+{{ $key := "pk.eyJ1IjoiamJyciIsImEiOiJjazA3Zm1xdnAwMjBpM2RwNjl2NTUxbGkwIn0.Ni4SMpG0YZL87BIcaREAhQ" }}
 
 {{ $coordX := .Get "coordX" }}
 {{ $coordY := .Get "coordY" }}
