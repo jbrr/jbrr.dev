@@ -19,7 +19,17 @@ const fetchFonts = async () => {
   return { fontRegular, fontBold };
 };
 
-const { fontRegular, fontBold } = await fetchFonts();
+const { fontRegular, fontBold } = (async (): Promise<{
+  fontBold: ArrayBuffer;
+  fontRegular: ArrayBuffer;
+} | void> => {
+  try {
+    return await fetchFonts();
+  } catch (e) {
+    console.error(e);
+    throw new Error();
+  }
+})();
 
 const ogImage = (text: string) => {
   return (

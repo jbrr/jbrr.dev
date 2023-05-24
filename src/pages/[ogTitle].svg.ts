@@ -6,7 +6,15 @@ export const get: APIRoute = async ({ params }) => ({
   body: await generateOgImage(params.ogTitle),
 });
 
-const postImportResult = await getCollection("blog", ({ data }) => !data.draft);
+const postImportResult = (async () => {
+  try {
+    return await getCollection("blog", ({ data }) => !data.draft);
+  } catch {
+    console.error(e);
+    throw new Error();
+  }
+})();
+
 const posts = Object.values(postImportResult);
 
 export function getStaticPaths() {
