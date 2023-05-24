@@ -1,5 +1,7 @@
 # build output
-dist/
+dist/**
+!dist/**/
+!dist/**/.gitkeep
 .output/
 
 # dependencies
