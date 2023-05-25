@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Jeff Ruane",
   desc: "Seemed like a good idea at the time.",
   title: "Jeff Ruane",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "bison-og.png",
   lightAndDarkMode: true,
   postPerPage: 6,
 };

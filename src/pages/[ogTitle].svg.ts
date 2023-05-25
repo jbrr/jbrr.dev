@@ -9,7 +9,7 @@ export const get: APIRoute = async ({ params }) => ({
 const postImportResult = (async () => {
   try {
     return await getCollection("blog", ({ data }) => !data.draft);
-  } catch {
+  } catch (e) {
     console.error(e);
     throw new Error();
   }
