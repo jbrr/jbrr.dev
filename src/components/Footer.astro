@@ -16,9 +16,12 @@ const { noMarginTop = false } = Astro.props;
   <div class="footer-wrapper">
     <Socials centered />
     <div class="copyright-wrapper">
-      <span>Copyright &#169; {currentYear}</span>
+      <span
+        ><a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+        {currentYear}</span
+      >
       <span class="separator">&nbsp;|&nbsp;</span>
-      <span>All rights reserved.</span>
+      <span>Some rights reserved.</span>
     </div>
   </div>
 </footer>

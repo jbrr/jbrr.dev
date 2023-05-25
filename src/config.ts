@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Jeff Ruane",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 6,
 };
 
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
@@ -24,6 +24,12 @@ export const SOCIALS: SocialObjects = [
     name: "Twitter",
     href: "https://twitter.com/jefbrr",
     linkTitle: `${SITE.title} on Twitter`,
+    active: true,
+  },
+  {
+    name: "Flickr",
+    href: "https://flickr.com/photos/eioua",
+    linkTitle: "Jeff Ruane on Flickr",
     active: true,
   },
   {
@@ -52,7 +58,6 @@ export const SOCIALS: SocialObjects = [
   },
 ];
 
-
 export const ALT_TITLES = [
   "A Fate Worse Than Jeff",
   "Nothing is Certain but Jeff and Taxes",
@@ -70,5 +75,5 @@ export const ALT_TITLES = [
   "Nothing Jeff Nothing More",
   "Jeff Cab for Cutie",
   "Blue Screen of Jeff",
-  "Every Jeff You Take"
-]
+  "Every Jeff You Take",
+];

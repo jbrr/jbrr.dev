@@ -6,11 +6,14 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
-import netlify from "@astrojs/netlify/functions";
+import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  experimental: {
+    assets: true,
+  },
   integrations: [
     tailwind({
       config: {
@@ -19,6 +22,7 @@ export default defineConfig({
     }),
     react(),
     sitemap(),
+    mdx(),
   ],
   markdown: {
     remarkPlugins: [
@@ -41,8 +45,4 @@ export default defineConfig({
       exclude: ["@resvg/resvg-js"],
     },
   },
-  output: "server",
-  adapter: netlify({
-    dist: new URL("./dist/", import.meta.url),
-  }),
 });
