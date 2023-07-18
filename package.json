@@ -3,9 +3,9 @@
   "version": "2.3.0",
   "type": "module",
   "scripts": {
-    "dev": "astro check --watch & astro dev",
+    "dev": "tinacms build && astro check --watch & astro dev",
     "start": "astro dev",
-    "build": "astro build && jampack ./dist",
+    "build": "tinacms build && astro build && jampack ./dist",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
