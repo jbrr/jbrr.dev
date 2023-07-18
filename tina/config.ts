@@ -5,8 +5,8 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
   branch,
-  clientId: "13c3bac8-2c90-45eb-95cf-f0b06c094f33", // Get this from tina.io
-  token: "4f36528db63e5b996fdfcb3b30c4cdd3eec7a153", // Get this from tina.io
+  clientId: process.env.TINA_CLIENT_ID, // Get this from tina.io
+  token: process.env.TINA_TOKEN, // Get this from tina.io
 
   build: {
     outputFolder: "admin",
@@ -39,10 +39,42 @@ export default defineConfig({
             required: false
           },
           {
+            type: "datetime",
+            name: "pubDatetime",
+            label: "Published Date",
+            required: true
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",
             isBody: true,
+          },
+          {
+            type: "string",
+            name: "postSlug",
+            label: "Post Slug",
+          },
+          {
+            type: "boolean",
+            name: "featured",
+            label: "Featured",
+          },
+          {
+            type: "boolean",
+            name: "draft",
+            label: "Draft",
+          },
+          {
+            type: "string",
+            name: "tags",
+            label: "Tags",
+            list: true,
+          },
+          {
+            type: "string",
+            name: "ogImage",
+            label: "Post Image"
           },
         ],
       },
