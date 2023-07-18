@@ -82,7 +82,7 @@ export default defineConfig({
         fields: blogSchema,
       },
       {
-        name: "posts-md",
+        name: "posts_md",
         label: "Posts (Markdown)",
         path: "src/content/blog",
         format: "md",
