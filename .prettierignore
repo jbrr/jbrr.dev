@@ -1,5 +1,6 @@
 # Ignore everything
 /*
+/public/admin
 
 # Except these files & folders
 !/src
