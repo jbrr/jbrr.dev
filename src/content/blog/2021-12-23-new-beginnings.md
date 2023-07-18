@@ -3,6 +3,7 @@ title: New beginnings
 pubDatetime: 2021-12-23T00:15:00-07:00
 draft: false
 description: A start at documenting getting the hang of a new job
+tags: [engineering, data]
 ---
 
 After almost 5 years at [Tendril / Uplight](https://uplight.com), I've finally moved on and just started a new job at [Tackle](https://tackle.io) as a Senior Software Engineer on a team working on data ingest. It's a super exciting time to be joining Tackle, as they just [secured Series C funding](https://techcrunch.com/2021/12/21/newly-minted-unicorn-tackle-plans-to-use-100-million-series-c-to-accelerate-the-future-of-software-sales/).

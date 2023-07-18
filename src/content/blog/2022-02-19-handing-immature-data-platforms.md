@@ -2,6 +2,7 @@
 title: Handling immature data platforms
 pubDatetime: 2022-02-19
 draft: false
+tags: [engineering, data]
 description: How to start building a robust data platform at a early stage startup
 ---
 
@@ -13,7 +14,7 @@ It's a great feeling to be there when the company decides to really invest in cl
 
 ## Understand the content of what's being ingested
 
-Getting a lay of the land is a good first step. Document what incoming data looks like. It can be tempting to pull up a Google sheet, write the columns and a short description and call it good. However, a strictly defined schema can save a ton of time down the road. Creating a JSON schema, a Protobuf definition, or some other schema that explicitly spells out what the expected type of each column is, the expected range of values, whether it's nullable or not, and any primary or foreign keys is well worth the time. Other teams should be involved as well. A product manager or a customer success manager might have a much better understanding of what some specific column means to the business or the customer than an engineer. Engineers should _‌not_ be guessing at what business relevant data means - I _‌promise_ it'll cost way more time medium term than it saves short term.
+Getting a lay of the land is a good first step. Document what incoming data looks like. It can be tempting to pull up a Google sheet, write the columns and a short description and call it good. However, a strictly defined schema can save a ton of time down the road. Creating a JSON schema, a Protobuf definition, or some other schema that explicitly spells out what the expected type of each column is, the expected range of values, whether it's nullable or not, and any primary or foreign keys is well worth the time. Other teams should be involved as well. A product manager or a customer success manager might have a much better understanding of what some specific column means to the business or the customer than an engineer. Engineers should _not_ be guessing at what business relevant data means - I _promise_ it'll cost way more time medium term than it saves short term.
 
 These schemas should be checked in to a version control system, and changes should need to be reviewed by the relevant stakeholders (if that's even a choice – we don't always have control over what our data sources look like). In _Database Design for Mere Mortals_, Michael Hernandez emphasizes what he calls the "interview process," which is really just gathering feedback from non-technical stakeholders:
 

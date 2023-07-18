@@ -23,7 +23,7 @@ const title = getRandomTitle() || SITE.title;
         {
           LOGO_IMAGE.enable ? (
             <img
-              src={LOGO_IMAGE.svg ? logoSVG.src : logoPNG.src}
+              src={LOGO_IMAGE.svg ? logoSVG : logoPNG}
               alt="AstroPaper Logo"
               width={LOGO_IMAGE.width}
               height={LOGO_IMAGE.height}
@@ -178,7 +178,6 @@ const title = getRandomTitle() || SITE.title;
   #theme-btn svg {
     @apply scale-125 hover:rotate-12 sm:scale-100;
   }
-
   .menu-icon line {
     @apply transition-opacity duration-75 ease-in-out;
   }

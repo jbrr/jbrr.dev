@@ -3,6 +3,7 @@ title: Thoughts on "Operations" by Andrew Bosworth
 pubDatetime: 2021-12-24
 draft: false
 description: A reaction to a interesting article about how teams work well together
+tags: [engineering, leadership, culture]
 ---
 
 Andrew Bosworth recently wrote [an interesting article](https://boz.com/articles/ops) about structure and process, and how those are important to high functioning organizations. It really resonates with me, I've seen first hand a lot of the repercussions of not taking process seriously enough, albeit on a much smaller level than he has. Anyway, I had a few questions, and a few additions, so I thought I'd throw it out into the void.

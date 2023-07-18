@@ -3,6 +3,7 @@ title: The story of my year
 pubDatetime: 2021-12-31
 draft: false
 description: Reflections on an awful year
+tags: [personal, mental health]
 ---
 
 **CW**: mental illness, psychosis, depression
