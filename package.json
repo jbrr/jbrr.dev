@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro check --watch & astro dev",
+    "tinaDev": "npx tinacms dev -c \"astro dev --port 8080\"\\n",
     "start": "astro dev",
     "build": "astro build && jampack ./dist",
     "fullBuild": "tinacms build --skip-cloud-checks && astro build && jampack ./dist",
