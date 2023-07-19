@@ -40,4 +40,5 @@ export type SocialMedia =
   | "Steam"
   | "Telegram"
   | "Mastodon"
-  | "Flickr";
+  | "Flickr"
+  | "Bluesky";
