@@ -29,7 +29,7 @@
     display: block;
   }
   body {
-    @apply flex min-h-screen flex-col bg-skin-fill font-mono text-skin-base 
+    @apply flex min-h-screen flex-col bg-skin-fill font-sansSerif text-skin-base
     selection:bg-skin-accent selection:bg-opacity-70 selection:text-skin-inverted;
   }
   section,
@@ -88,6 +88,9 @@
   }
   .prose h2#table-of-contents + p {
     @apply hidden;
+  }
+  .prose .twitter-tweet {
+    @apply text-skin-accent;
   }
 
   /* ===== scrollbar ===== */
