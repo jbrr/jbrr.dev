@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Jeff Ruane",
   ogImage: "bison-og.png",
   lightAndDarkMode: true,
-  postPerPage: 6,
+  postPerPage: 20,
 };
 
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
