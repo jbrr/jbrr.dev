@@ -15,4 +15,21 @@ export const blogSchema = z
   })
   .strict();
 
+export const authorSchema = z
+  .object({
+    name: z.string(),
+    givenName: z.string().optional(),
+    familyName: z.string().optional(),
+    photo: z.string().optional(),
+    url: z.string().optional(),
+    email: z.string().optional(),
+    locality: z.string().optional(),
+    region: z.string().optional(),
+    country: z.string().optional(),
+    genderIdentity: z.string().optional(),
+    key: z.string().optional(),
+  })
+  .strict();
+
 export type BlogFrontmatter = z.infer<typeof blogSchema>;
+export type authorFrontmatter = z.infer<typeof authorSchema>;
