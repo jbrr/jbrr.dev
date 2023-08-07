@@ -75,9 +75,15 @@ const socialImageURL = new URL(
       )
     }
 
-    <!-- Plausible Analytics -->
-    <script defer data-domain="jbrr.dev" src="https://plausible.io/js/script.js"
-    ></script>
+    <!-- Privacy ensured metrics -->
+    <script defer data-domain="jbrr.dev" src="/js/script.js"></script>
+
+    <!--IndieWeb-->
+    <!--IndieAuth-->
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+    <!--webmention.io-->
+    <link rel="webmention" href="https://webmention.io/jbrr.dev/webmention" />
 
     <!--Sitemap-->
     <link rel="sitemap" href="/sitemap-index.xml" />
