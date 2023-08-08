@@ -2,6 +2,7 @@ import satori, { SatoriOptions } from "satori";
 import { SITE } from "@config";
 import { writeFile } from "node:fs/promises";
 import { Resvg } from "@resvg/resvg-js";
+import { slugifyStr } from "@utils/slugify";
 
 const fetchFonts = async () => {
   // Regular Font

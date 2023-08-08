@@ -1,6 +1,7 @@
 # Ignore everything
 /*
 /public/admin
+/public/fonts
 /public/assets/pgp.asc
 
 # Except these files & folders
