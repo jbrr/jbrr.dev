@@ -53,10 +53,10 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.png`, Astro.url.origin)
           className="dt-published my-2"
         />
       </LinkButton>
+      <div class="e-content prose">
+        <Content />
+      </div>
     </article>
-    <div class="e-content prose">
-      <Content />
-    </div>
   </main>
 
   <ul class="tags-container">
