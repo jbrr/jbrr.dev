@@ -1,13 +1,14 @@
 ---
 import { SITE } from "@config";
 import "@styles/base.css";
+import { Schema } from "astro-seo-schema";
 
 export interface Props {
   title?: string;
   author?: string;
   description?: string;
   ogImage?: string;
-  canonicalUrl?: string;
+  canonicalURL?: string;
 }
 
 const {
@@ -32,6 +33,48 @@ const socialImageURL = new URL(
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
+
+    <!-- Schema.org -->
+    <Schema
+      item={{
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Jeff Ruane",
+        gender: "https://schema.org/Male",
+        hasOccupation: {
+          "@type": "Occupation",
+          name: "Senior Software Engineer",
+        },
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Denver",
+          addressRegion: "Colorado",
+          addressCountry: "US",
+        },
+        knowsAbout: [
+          "Python",
+          "SQL",
+          "Data pipelines",
+          "Relational databases",
+          "Columnar databases",
+          "API design",
+        ],
+        alumniOf: {
+          "@type": "EducationalOrganization",
+          name: "Turing School of Software and Design",
+          sameAs: "https://turing.edu",
+        },
+        email: "jeff@jbrr.dev",
+        sameAs: [
+          "https://twitter.com/jefbrr",
+          "https://mastodon.sdf.org/@jbrr",
+          "https://github.com/jbrr",
+          "https://flickr.com/photos/eioua",
+          "https://bsky.app/profile/skipper.fart.boats",
+          "https://linkedin.com/in/jeffruane",
+        ],
+      }}
+    />
 
     <!-- General Meta Tags -->
     <title>{title}</title>
