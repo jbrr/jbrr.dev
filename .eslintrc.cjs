@@ -20,6 +20,7 @@ module.exports = {
     {
       files: ["*.astro"],
       parser: "astro-eslint-parser",
+      excludeDirectories: "studio",
       parserOptions: {
         parser: "@typescript-eslint/parser",
         extraFileExtensions: [".astro"],

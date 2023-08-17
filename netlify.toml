@@ -5,6 +5,9 @@
 [build.environment]
     NODE_VERSION = "18.x"
 
+[functions]
+    directory = "dist/functions"
+
 [[redirects]]
   from = "/js/script.js"
   to = "https://plausible.io/js/script.js"
@@ -16,3 +19,9 @@
     to = "https://plausible.io/api/event"
     status = 200
     force = true
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin"
+  status = 301
+  force = true
